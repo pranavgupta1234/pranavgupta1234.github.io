@@ -1,207 +1,323 @@
-
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Project</title>
-    <!-- Bootstrap -->
-    <link href="mdl/material.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-    <!-- Material Design icon font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <style type="text/css">
-        #main_layout{
-            position: fixed;
-            top:0px;
-            left:0px;
-            background-color: white;
-        }  
-        .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-        padding-right: 0;
-        }
-        
-        .demo-card-wide.mdl-card {
-        width: 512px;
-        }
-        .demo-card-wide > .mdl-card__title {
-        color: #fff;
-        height: 176px;
-        background: url('img/sci.jpg') center / cover;
-        }
-        .demo-card-wide > .mdl-card__menu {
-        color: #fff;
-        }
-        #card1{
-            margin: 30px;
-            padding: 5px;
-            width:60%;
-            height: 400px;
-            top: 50px;
-            
-        }
-        #title{
-            margin-left: 30px;
-            color: #ff33of;
-        }
-        #sq1{
-            position: absolute;
-            width: 300px;
-            height:300px;
-            top: 150px;
-            left: 950px;
-        }
-    
-    </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Pranav Gupta</title>
+  <meta name="description" content="Small JavaScript library for simple but powerful sprite based animations and panning.">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/ospb.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr.js"></script>
 </head>
-<body> 
-     <!-- Uses a header that contracts as the page scrolls down. -->
-<div class="demo-layout-waterfall mdl-layout mdl-js-layout" id="main_layout">
-  <header class="mdl-layout__header mdl-layout__header--waterfall">
-    <!-- Top row, always visible -->
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">WELCOME TO THE WORLD OF SCIENCE</span>
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                  mdl-textfield--floating-label mdl-textfield--align-right">
-        <label class="mdl-button mdl-js-button mdl-button--icon"
-               for="waterfall-exp">
-          <i class="material-icons">search</i>
-        </label>
-        <div class="mdl-textfield__expandable-holder">
-          <input class="mdl-textfield__input" type="text" name="sample"
-                 id="waterfall-exp">
-        </div>
+<body data-repo="darsain/motio" data-metafile="meta.json">
+<!--[if lt IE 9]>
+<p class="chromeframe"><i class="icon-warning-sign icon-large"></i> You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience. <i class="icon-warning-sign icon-large"></i></p>
+<![endif]-->
+
+<header class="projecttitle">
+  <div class="titlewrap">
+    <h1 class="projectname">Pranav Gupta</h1>
+    <a href="https://twitter.com/Darsain" class="follow"><i class="icon-twitter icon-large"></i> Follow for updates</a>
+  </div>
+  <p class="projectdescription">Small JavaScript library for sprite based animations and panning</p>
+</header>
+
+<div class="download pagespan" id="download" data-point="download" data-title="Download" data-active-when="down">
+  <h2>Download <small>latest stable</small></h2>
+  <h3 id="version"><span class="loading">loading <i class="icon-refresh icon-large icon-spin"></i></span></h3>
+
+  <a href="https://github.com/darsain/motio/raw/master/dist/motio.min.js" data-tooltip="1.5KB gzipped" data-style="light">
+    <span class="title">Production</span> <span class="size">3 KB</span>
+  </a>
+  <a href="https://github.com/darsain/motio/raw/master/dist/motio.js">
+    <span class="title">Development</span> <span class="size">12 KB</span>
+  </a>
+  <a href="https://github.com/darsain/motio" class="repo" id="repo">
+    <i class="icon-github"></i>
+    <span class="title">Repository</span>
+    <span class="loading"><i class="icon-refresh icon-large icon-spin"></i> loading</span>
+  </a>
+</div>
+<div class="download-border pagespan"></div>
+
+<div id="content" class="content pagespan">
+
+  <style>
+    .reward {
+      display: block;
+      min-height: 60px;
+      padding: .5em 0 0 80px;
+      background: url('img/paypal-stamp.png') no-repeat left top;
+      color: #3b7bbf;
+    }
+    .reward h4 { margin: 0; }
+    .reward.mini {
+      width: 120px;
+      background-position: center top;
+      margin: 1.5em auto 0;
+      padding: 70px 0 0 0;
+      text-align: center;
+    }
+    .reward.mini h4 { font-size: .9em; }
+    .reward:hover {
+      color: #1e477a;
+      text-decoration: none;
+    }
+  </style>
+
+  <nav id="mainnav" class="mainnav">
+    <div id="carbonads-container">
+      <div class="carbonad">
+        <div id="azcarbon"></div>
+        <script type="text/javascript">
+            var z = document.createElement("script");
+            z.type = "text/javascript";
+            z.async = true;
+            z.src = "http://engine.carbonads.com/z/32315/azcarbon_2_1_0_VERT";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(z, s);
+        </script>
       </div>
     </div>
-    <!-- Bottom row, not visible on scroll -->
-    <div class="mdl-layout__header-row">
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=23CALWRSTQ8X2" class="reward mini">
+      <h4>Reward the developer</h4>
+    </a>
+  </nav>
+
+  <section data-point="introduction" data-title="Introduction">
+    <h2>Introduction</h2>
+
+    <p>Motio is a small JavaScript library for simple but powerful sprite based animations and panning.</p>
+
+    <p>It takes an element, and changes the background position to create an animation effect.</p>
+
+    <h3>Dependencies</h3>
+
+    <p>Motio has no dependencies, but there is an optional <a href="#!jquery">Motio jQuery plugin</a> version available.</p>
+
+    <h3>Compatibility</h3>
+
+    <p>Works everywhere.</p>
+
+    <h3><a href="https://github.com/darsain/motio/blob/master/CHANGELOG.md">Changelog</a></h3>
+
+    <p>Motio upholds the <a href="http://semver.org">Semantic Versioning Specification</a>.</p>
+
+    <h3>Support</h3>
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=23CALWRSTQ8X2" class="reward">
+      <h4>Reward the developer</h4>
+      <p>And make him happy for maintaining this library! :)</p>
+    </a>
+
+    <p>I don't want to go the Isotope &amp; family route and monetize my libraries. I want them to be accessible to everyone for any use case and any budget. That being said, free software isn't free, it's just paid by with developer's time, and right now I could use some help :)</p>
+  </section>
+
+  <section data-point="jquery" data-title="jQuery plugin">
+    <h2>jQuery plugin</h2>
+
+    <p>If you consider jQuery to be a separate language and are not interested in learning JavaScript, you can use the jQuery plugin version of Motio:</p>
+
+    <ul class="grid">
+      <li><a href="https://github.com/darsain/motio/raw/master/dist/jquery.motio.min.js"><i class="icon-download-alt"></i> Production 3.7KB</a></li>
+      <li><a href="https://github.com/darsain/motio/raw/master/dist/jquery.motio.js"><i class="icon-download-alt"></i> Development 13KB</a></li>
+    </ul>
+
+    <p>Working with Motio via a jQuery proxy has some limitations. You can't access Motio properties and receive values returned by methods, which takes away a lot of control. But if all you want is to trigger a background panning on an element and forget about it, jQuery proxy is the simplest way how to do it.</p>
+  </section>
+
+  <section data-point="performance" data-title="Performance">
+    <h2>Performance</h2>
+
+    <p>Motio is chained to the requestAnimationFrame (with a polyfill for older browsers) and optimized for speed and garbage collection. What Motio does, cannot be done faster.</p>
+
+    <p>That being said, animating the element background is not the fastest possible way how to do this kind of animations (canvas solutions are faster), but it is sure as hell the most simple one, and compatible with everything from IE6 and up.</p>
+  </section>
+
+  <section data-point="examples" data-title="Examples">
+    <h2>Examples</h2>
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#panning" data-toggle="tab">Panning</a></li>
+      <li><a href="#sprite" data-toggle="tab">Sprite</a></li>
+      <li><a href="#circview" data-toggle="tab">360 view</a></li>
+      <li><a href="#game" data-toggle="tab">Extreme spriting</a></li>
+    </ul>
+    <div class="tab-content examples">
+      <div class="tab-pane active" id="panning">
+        <div class="example">
+          <div class="frame panning"></div>
+        </div>
+
+        <p>Move cursor over the example to control the panning direction and speed.</p>
+
+        <pre><code data-language="javascript">var $example = $(&#039;#panning .example&#039;);
+var frame = $example.find(&#039;.frame&#039;)[0];
+var offset = $example.offset();
+var motio = new Motio(frame, {
+	fps: 30,
+	bgWidth: 1024,
+	bgHeight: 1024
+});
+
+// Play/Pause when mouse enters/leaves the frame
+$example.on(&#039;mouseenter mouseleave&#039;, function (event) {
+	if (event.type === &#039;mouseenter&#039;) {
+		motio.play();
+	} else {
+		motio.pause();
+	}
+});
+
+// Update the animation speed &amp; direction based on a cursor position
+$example.on(&#039;mousemove&#039;, function (event) {
+	motio.set(&#039;speedX&#039;, event.pageX - offset.left - motio.width / 2);
+	motio.set(&#039;speedY&#039;, event.pageY - offset.top - motio.height / 2);
+});</code></pre>
+      </div>
+
+      <div class="tab-pane" id="sprite">
+        <div class="example">
+          <div class="frame sprite"></div>
+        </div>
+
+        <p>Mouse over the example to play, and mouse out to pause the sprite animation. Sprite image <del>stolen</del> borrowed from <a href="http://kofaniv.snkplaymore.co.jp/english/info/15th_anniv/2d_dot/gallery/character/index.php">kofaniv.snkplaymore.co.jp</a>.</p>
+
+        <pre><code data-language="javascript">var $example = $(&#039;#sprite .example&#039;);
+var frame = $example.find(&#039;.frame&#039;)[0];
+var motio = new Motio(frame, {
+	fps: 10,
+	frames: 14
+});
+
+// Play when mouse enters the frame, and pause when it leaves
+$example.on(&#039;mouseenter mouseleave&#039;, function (event) {
+	motio[event.type === &#039;mouseenter&#039; ? &#039;play&#039; : &#039;pause&#039;]();
+});</code></pre>
+      </div>
+
+      <div class="tab-pane" id="circview">
+        <div class="example">
+          <div class="frame circview"></div>
+        </div>
+
+        <p>Mouse over the example, and move mouse from right to left to view different angles. Sprite image <del>stolen</del> borrowed from <a href="http://jbkflex.wordpress.com/">jbkflex.wordpress.com</a>.</p>
+
+        <pre><code data-language="javascript">var $example = $(&#039;#circview .example&#039;);
+var exampleLeft = $example.offset().left;
+var exampleWidth = $example.width();
+var frame = $example.find(&#039;.frame&#039;)[0];
+var motio = new Motio(frame, {
+	frames: 18
+});
+
+// Activate frame based on the cursor position
+$example.on(&#039;mousemove&#039;, function (event) {
+	motio.to(Math.floor(motio.frames / exampleWidth * (event.pageX - exampleLeft)), true);
+});</code></pre>
+      </div>
+
+      <div class="tab-pane" id="game">
+
+        <div class="frame game">
+          <div class="char">
+            <div class="stand"></div>
+            <div class="stand_left"></div>
+            <div class="run"></div>
+            <div class="run_left"></div>
+            <div class="jump"></div>
+            <div class="jump_left"></div>
+            <div class="kick"></div>
+            <div class="kick_left"></div>
+          </div>
+
+          <div class="overlay"></div>
+          <div class="keys text-center"><kbd>&larr;</kbd> <kbd>&rarr;</kbd> <kbd>Space</kbd> <kbd>B</kbd></div>
+        </div>
+
+        <p>Sprites are from <a href="http://spriters-resource.com/arcade/prettysoldiersailormoon/">spriters-resource.com</a>. No example code here, because it is dirty, dumb, and on top of that adapted from older vrsion of Motio. Please ignore it, this is just me goofing around. And you shouldn't be doing games with HTML elements anyway :)</p>
+      </div>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-    <div class="page-content">
-        <!-- Your content goes here -->
-        <!-- Wide card with share menu button -->
-        <div id="title"><h3>Top Stories of Today</h3></div>
+  </section>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp" id="card1">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Welcome</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Get Started
-    </a>
-  </div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
-</div>
-        
-        
-        <!-- Square card -->
-<style>
-.demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
-}
-.demo-card-square > .mdl-card__title {
-  color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
-}
-</style>
+  <section data-point="documentation" data-title="Documentation">
+    <h2>Documentation</h2>
 
-<div class="demo-card-square mdl-card mdl-shadow--2dp" id ="sq1">
-  <div class="mdl-card__title mdl-card--expand">
-    <h2 class="mdl-card__title-text">Update</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenan convallis.
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      View Updates
-    </a>
-  </div>
+    <p>Documentation can be found in the <a href="https://github.com/darsain/motio/tree/master/docs">repository's <code>docs</code> directory</a>.</p>
+
+    <ul class="grid">
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Markup.md"><i class="icon-book icon-large"></i> Markup <small>HTML &amp; CSS</small></a></li>
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Calling.md"><i class="icon-book icon-large"></i> Calling</a></li>
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Options.md"><i class="icon-book icon-large"></i> Options</a></li>
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Properties.md"><i class="icon-book icon-large"></i> Properties</a></li>
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Methods.md"><i class="icon-book icon-large"></i> Methods</a></li>
+      <li><a href="https://github.com/darsain/motio/tree/master/docs/Events.md"><i class="icon-book icon-large"></i> Events</a></li>
+    </ul>
+  </section>
 </div>
 
-        
-        
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp" id="card1">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Welcome</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Get Started
-    </a>
-  </div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
-</div>
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp" id="card1">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Welcome</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Get Started
-    </a>
-  </div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
-</div>
+<footer class="pagespan" data-point="license" data-title="License">
+  <a id="license" class="license">
+    <i class="icon-refresh icon-spin"></i> Loading license <i class="icon-refresh icon-spin"></i>
+  </a>
 
-    
-    
-    </div>
-  </main>
-</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="mdl/material.js"></script>
+  <div id="repos" class="repos" data-display="sly,espy,imagesloaded,fpsmeter">
+    <i class="icon-refresh icon-large icon-spin"></i>
+    <h6>Loading other projects</h6>
+  </div>
+</footer>
+
+<!-- Templates -->
+<script type="text/tim" class="version">
+		{{version}}  <small>{{date}}</small>
+	</script>
+
+<script type="text/tim" class="watchers">
+		<span class="size">{{watchers}} <small>watchers</small></span>
+	</script>
+
+<script type="text/tim" class="license">
+		<span class="fl">{{license}}</span>
+		<span class="fr">{{license}}</span>
+		Lincensed under the <strong>{{license}}</strong> license
+	</script>
+
+<script type="text/tim" class="repos">
+		<ul class="clearfix">
+			{{items}}
+				<li>
+					<a href="{{url}}">
+						<h4>{{name}}</h4>
+						<span class="watchers"><i class="icon-star"></i> {{watchers}}</span>
+						<p>{{description}}</p>
+					</a>
+				</li>
+			{{/items}}
+		</ul>
+	</script>
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/vendor/plugins.js"></script>
+<script src="js/ospb.js"></script>
+<script src="js/motio.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics -->
+<script>
+    var _gaq=[['_setAccount','UA-838758-7'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 </body>
 </html>
-
