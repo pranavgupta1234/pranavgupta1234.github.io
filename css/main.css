@@ -1,7 +1,7 @@
 /* Header style */
 header.projecttitle { margin: 0 auto; padding: 115px 0; color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,.3); background: url('../img/clouds.jpg') #679eba; }
-header .projectname { text-shadow: 2px 2px 0 rgba(0,0,0,.3); }
-header .projectdescription { opacity: 1; }
+header.projectname { text-shadow: 2px 2px 0 rgba(0,0,0,.3); }
+header.projectdescription { opacity: 1; }
 .download { margin-top: -45px; }
 
 /* Color theme */
@@ -23,7 +23,7 @@ ul.grid li a:hover,
 
 /* Examples */
 .examples .example { height: 300px; margin-bottom: 25px; background: #363840; box-shadow: inset 0 0 0 1px rgba(0,0,0,.2); }
-.examples .panning { width: 100%; height: 100%; background: url('../img/clouds.jpg') #679eba; box-shadow: inherit; }
+.examples .panning { width: 100%; height: 100%; background: url('../img/cloud.jpg') #679eba; box-shadow: inherit; }
 .examples .sprite { position: relative; left: 50%; top: 25px; margin-left: -125px; width: 250px; height: 250px; background: url('../img/ash_crimson_kiss.gif'); }
 .examples .circview { position: relative; left: 50%; top: 50px; margin-left: -120px; width: 240px; height: 200px; background-image: url('../img/car.gif'); }
 
