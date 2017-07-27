@@ -7,11 +7,25 @@
 }
 
 .rx_png{
-
     position: relative;
     height: 100px;
     width: 100px;
     top:430px;
     left: 140px;
+}
 
+.comp_png{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top:1060px;
+    left: 30px;
+}
+
+.contact_png{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    top:3550px;
+    left:-20px;
 }
