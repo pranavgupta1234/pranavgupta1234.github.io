@@ -1,0 +1,1946 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData acorn
+20 silly mapToRegistry name acorn
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'acorn',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'acorn',
+23 silly mapToRegistry   name: 'acorn',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/acorn
+25 silly fetchNamedPackageData babel-core
+26 silly mapToRegistry name babel-core
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'babel-core',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'babel-core',
+29 silly mapToRegistry   name: 'babel-core',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+31 silly fetchNamedPackageData browser-sync
+32 silly mapToRegistry name browser-sync
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'browser-sync',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'browser-sync',
+35 silly mapToRegistry   name: 'browser-sync',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+37 silly fetchNamedPackageData chai
+38 silly mapToRegistry name chai
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'chai',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'chai',
+41 silly mapToRegistry   name: 'chai',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/chai
+43 silly fetchNamedPackageData chai-jquery
+44 silly mapToRegistry name chai-jquery
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'chai-jquery',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'chai-jquery',
+47 silly mapToRegistry   name: 'chai-jquery',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/chai-jquery
+49 silly fetchNamedPackageData del
+50 silly mapToRegistry name del
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'del',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'del',
+53 silly mapToRegistry   name: 'del',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/del
+55 silly fetchNamedPackageData drool
+56 silly mapToRegistry name drool
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'drool',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'drool',
+59 silly mapToRegistry   name: 'drool',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/drool
+61 silly fetchNamedPackageData escodegen
+62 silly mapToRegistry name escodegen
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'escodegen',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'escodegen',
+65 silly mapToRegistry   name: 'escodegen',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/escodegen
+67 silly fetchNamedPackageData google-closure-compiler
+68 silly mapToRegistry name google-closure-compiler
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'google-closure-compiler',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'google-closure-compiler',
+71 silly mapToRegistry   name: 'google-closure-compiler',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/google-closure-compiler
+73 silly fetchNamedPackageData gulp
+74 silly mapToRegistry name gulp
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'gulp',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'gulp',
+77 silly mapToRegistry   name: 'gulp',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/gulp
+79 silly fetchNamedPackageData gulp-autoprefixer
+80 silly mapToRegistry name gulp-autoprefixer
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'gulp-autoprefixer',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'gulp-autoprefixer',
+83 silly mapToRegistry   name: 'gulp-autoprefixer',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
+85 silly fetchNamedPackageData gulp-cache
+86 silly mapToRegistry name gulp-cache
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'gulp-cache',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'gulp-cache',
+89 silly mapToRegistry   name: 'gulp-cache',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/gulp-cache
+91 silly fetchNamedPackageData gulp-closure-compiler
+92 silly mapToRegistry name gulp-closure-compiler
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'gulp-closure-compiler',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'gulp-closure-compiler',
+95 silly mapToRegistry   name: 'gulp-closure-compiler',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/gulp-closure-compiler
+97 silly fetchNamedPackageData gulp-concat
+98 silly mapToRegistry name gulp-concat
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'gulp-concat',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'gulp-concat',
+101 silly mapToRegistry   name: 'gulp-concat',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+103 silly fetchNamedPackageData gulp-connect
+104 silly mapToRegistry name gulp-connect
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'gulp-connect',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'gulp-connect',
+107 silly mapToRegistry   name: 'gulp-connect',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+109 silly fetchNamedPackageData gulp-css-inline-images
+110 silly mapToRegistry name gulp-css-inline-images
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'gulp-css-inline-images',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'gulp-css-inline-images',
+113 silly mapToRegistry   name: 'gulp-css-inline-images',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/gulp-css-inline-images
+115 silly fetchNamedPackageData gulp-csso
+116 silly mapToRegistry name gulp-csso
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'gulp-csso',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'gulp-csso',
+119 silly mapToRegistry   name: 'gulp-csso',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/gulp-csso
+121 silly fetchNamedPackageData gulp-file
+122 silly mapToRegistry name gulp-file
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'gulp-file',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'gulp-file',
+125 silly mapToRegistry   name: 'gulp-file',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/gulp-file
+127 silly fetchNamedPackageData gulp-flatten
+128 silly mapToRegistry name gulp-flatten
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'gulp-flatten',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'gulp-flatten',
+131 silly mapToRegistry   name: 'gulp-flatten',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/gulp-flatten
+133 silly fetchNamedPackageData gulp-front-matter
+134 silly mapToRegistry name gulp-front-matter
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'gulp-front-matter',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   escapedName: 'gulp-front-matter',
+137 silly mapToRegistry   name: 'gulp-front-matter',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/gulp-front-matter
+139 silly fetchNamedPackageData gulp-header
+140 silly mapToRegistry name gulp-header
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'gulp-header',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'gulp-header',
+143 silly mapToRegistry   name: 'gulp-header',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/gulp-header
+145 silly fetchNamedPackageData gulp-if
+146 silly mapToRegistry name gulp-if
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'gulp-if',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'gulp-if',
+149 silly mapToRegistry   name: 'gulp-if',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/gulp-if
+151 silly fetchNamedPackageData gulp-iife
+152 silly mapToRegistry name gulp-iife
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'gulp-iife',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   escapedName: 'gulp-iife',
+155 silly mapToRegistry   name: 'gulp-iife',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/gulp-iife
+157 silly fetchNamedPackageData gulp-imagemin
+158 silly mapToRegistry name gulp-imagemin
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'gulp-imagemin',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   escapedName: 'gulp-imagemin',
+161 silly mapToRegistry   name: 'gulp-imagemin',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+163 silly fetchNamedPackageData gulp-jscs
+164 silly mapToRegistry name gulp-jscs
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'gulp-jscs',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'gulp-jscs',
+167 silly mapToRegistry   name: 'gulp-jscs',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+169 silly fetchNamedPackageData gulp-jshint
+170 silly mapToRegistry name gulp-jshint
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'gulp-jshint',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'gulp-jshint',
+173 silly mapToRegistry   name: 'gulp-jshint',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+175 silly fetchNamedPackageData gulp-load-plugins
+176 silly mapToRegistry name gulp-load-plugins
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'gulp-load-plugins',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'gulp-load-plugins',
+179 silly mapToRegistry   name: 'gulp-load-plugins',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+181 silly fetchNamedPackageData gulp-marked
+182 silly mapToRegistry name gulp-marked
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'gulp-marked',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   escapedName: 'gulp-marked',
+185 silly mapToRegistry   name: 'gulp-marked',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/gulp-marked
+187 silly fetchNamedPackageData gulp-mocha-phantomjs
+188 silly mapToRegistry name gulp-mocha-phantomjs
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'gulp-mocha-phantomjs',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   escapedName: 'gulp-mocha-phantomjs',
+191 silly mapToRegistry   name: 'gulp-mocha-phantomjs',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri https://registry.npmjs.org/gulp-mocha-phantomjs
+193 silly fetchNamedPackageData gulp-open
+194 silly mapToRegistry name gulp-open
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'gulp-open',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   escapedName: 'gulp-open',
+197 silly mapToRegistry   name: 'gulp-open',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri https://registry.npmjs.org/gulp-open
+199 silly fetchNamedPackageData gulp-rename
+200 silly mapToRegistry name gulp-rename
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry data Result {
+203 silly mapToRegistry   raw: 'gulp-rename',
+203 silly mapToRegistry   scope: null,
+203 silly mapToRegistry   escapedName: 'gulp-rename',
+203 silly mapToRegistry   name: 'gulp-rename',
+203 silly mapToRegistry   rawSpec: '',
+203 silly mapToRegistry   spec: 'latest',
+203 silly mapToRegistry   type: 'tag' }
+204 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+205 silly fetchNamedPackageData gulp-replace
+206 silly mapToRegistry name gulp-replace
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'gulp-replace',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   escapedName: 'gulp-replace',
+209 silly mapToRegistry   name: 'gulp-replace',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npmjs.org/gulp-replace
+211 silly fetchNamedPackageData gulp-sass
+212 silly mapToRegistry name gulp-sass
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'gulp-sass',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   escapedName: 'gulp-sass',
+215 silly mapToRegistry   name: 'gulp-sass',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+217 silly fetchNamedPackageData gulp-shell
+218 silly mapToRegistry name gulp-shell
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://registry.npmjs.org/
+221 silly mapToRegistry data Result {
+221 silly mapToRegistry   raw: 'gulp-shell',
+221 silly mapToRegistry   scope: null,
+221 silly mapToRegistry   escapedName: 'gulp-shell',
+221 silly mapToRegistry   name: 'gulp-shell',
+221 silly mapToRegistry   rawSpec: '',
+221 silly mapToRegistry   spec: 'latest',
+221 silly mapToRegistry   type: 'tag' }
+222 silly mapToRegistry uri https://registry.npmjs.org/gulp-shell
+223 silly fetchNamedPackageData gulp-size
+224 silly mapToRegistry name gulp-size
+225 silly mapToRegistry using default registry
+226 silly mapToRegistry registry https://registry.npmjs.org/
+227 silly mapToRegistry data Result {
+227 silly mapToRegistry   raw: 'gulp-size',
+227 silly mapToRegistry   scope: null,
+227 silly mapToRegistry   escapedName: 'gulp-size',
+227 silly mapToRegistry   name: 'gulp-size',
+227 silly mapToRegistry   rawSpec: '',
+227 silly mapToRegistry   spec: 'latest',
+227 silly mapToRegistry   type: 'tag' }
+228 silly mapToRegistry uri https://registry.npmjs.org/gulp-size
+229 silly fetchNamedPackageData gulp-sourcemaps
+230 silly mapToRegistry name gulp-sourcemaps
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: 'gulp-sourcemaps',
+233 silly mapToRegistry   scope: null,
+233 silly mapToRegistry   escapedName: 'gulp-sourcemaps',
+233 silly mapToRegistry   name: 'gulp-sourcemaps',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+235 silly fetchNamedPackageData gulp-subtree
+236 silly mapToRegistry name gulp-subtree
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'gulp-subtree',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   escapedName: 'gulp-subtree',
+239 silly mapToRegistry   name: 'gulp-subtree',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npmjs.org/gulp-subtree
+241 silly fetchNamedPackageData gulp-tap
+242 silly mapToRegistry name gulp-tap
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'gulp-tap',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   escapedName: 'gulp-tap',
+245 silly mapToRegistry   name: 'gulp-tap',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npmjs.org/gulp-tap
+247 silly fetchNamedPackageData gulp-uglify
+248 silly mapToRegistry name gulp-uglify
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry data Result {
+251 silly mapToRegistry   raw: 'gulp-uglify',
+251 silly mapToRegistry   scope: null,
+251 silly mapToRegistry   escapedName: 'gulp-uglify',
+251 silly mapToRegistry   name: 'gulp-uglify',
+251 silly mapToRegistry   rawSpec: '',
+251 silly mapToRegistry   spec: 'latest',
+251 silly mapToRegistry   type: 'tag' }
+252 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+253 silly fetchNamedPackageData gulp-util
+254 silly mapToRegistry name gulp-util
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'gulp-util',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   escapedName: 'gulp-util',
+257 silly mapToRegistry   name: 'gulp-util',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+259 silly fetchNamedPackageData gulp-zip
+260 silly mapToRegistry name gulp-zip
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'gulp-zip',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   escapedName: 'gulp-zip',
+263 silly mapToRegistry   name: 'gulp-zip',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag' }
+264 silly mapToRegistry uri https://registry.npmjs.org/gulp-zip
+265 silly fetchNamedPackageData humanize
+266 silly mapToRegistry name humanize
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry data Result {
+269 silly mapToRegistry   raw: 'humanize',
+269 silly mapToRegistry   scope: null,
+269 silly mapToRegistry   escapedName: 'humanize',
+269 silly mapToRegistry   name: 'humanize',
+269 silly mapToRegistry   rawSpec: '',
+269 silly mapToRegistry   spec: 'latest',
+269 silly mapToRegistry   type: 'tag' }
+270 silly mapToRegistry uri https://registry.npmjs.org/humanize
+271 silly fetchNamedPackageData jquery
+272 silly mapToRegistry name jquery
+273 silly mapToRegistry using default registry
+274 silly mapToRegistry registry https://registry.npmjs.org/
+275 silly mapToRegistry data Result {
+275 silly mapToRegistry   raw: 'jquery',
+275 silly mapToRegistry   scope: null,
+275 silly mapToRegistry   escapedName: 'jquery',
+275 silly mapToRegistry   name: 'jquery',
+275 silly mapToRegistry   rawSpec: '',
+275 silly mapToRegistry   spec: 'latest',
+275 silly mapToRegistry   type: 'tag' }
+276 silly mapToRegistry uri https://registry.npmjs.org/jquery
+277 silly fetchNamedPackageData jshint-stylish
+278 silly mapToRegistry name jshint-stylish
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry data Result {
+281 silly mapToRegistry   raw: 'jshint-stylish',
+281 silly mapToRegistry   scope: null,
+281 silly mapToRegistry   escapedName: 'jshint-stylish',
+281 silly mapToRegistry   name: 'jshint-stylish',
+281 silly mapToRegistry   rawSpec: '',
+281 silly mapToRegistry   spec: 'latest',
+281 silly mapToRegistry   type: 'tag' }
+282 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+283 silly fetchNamedPackageData merge-stream
+284 silly mapToRegistry name merge-stream
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'merge-stream',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'merge-stream',
+287 silly mapToRegistry   name: 'merge-stream',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/merge-stream
+289 silly fetchNamedPackageData mocha
+290 silly mapToRegistry name mocha
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'mocha',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   escapedName: 'mocha',
+293 silly mapToRegistry   name: 'mocha',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/mocha
+295 silly fetchNamedPackageData prismjs
+296 silly mapToRegistry name prismjs
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npmjs.org/
+299 silly mapToRegistry data Result {
+299 silly mapToRegistry   raw: 'prismjs',
+299 silly mapToRegistry   scope: null,
+299 silly mapToRegistry   escapedName: 'prismjs',
+299 silly mapToRegistry   name: 'prismjs',
+299 silly mapToRegistry   rawSpec: '',
+299 silly mapToRegistry   spec: 'latest',
+299 silly mapToRegistry   type: 'tag' }
+300 silly mapToRegistry uri https://registry.npmjs.org/prismjs
+301 silly fetchNamedPackageData run-sequence
+302 silly mapToRegistry name run-sequence
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry data Result {
+305 silly mapToRegistry   raw: 'run-sequence',
+305 silly mapToRegistry   scope: null,
+305 silly mapToRegistry   escapedName: 'run-sequence',
+305 silly mapToRegistry   name: 'run-sequence',
+305 silly mapToRegistry   rawSpec: '',
+305 silly mapToRegistry   spec: 'latest',
+305 silly mapToRegistry   type: 'tag' }
+306 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+307 silly fetchNamedPackageData swig
+308 silly mapToRegistry name swig
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npmjs.org/
+311 silly mapToRegistry data Result {
+311 silly mapToRegistry   raw: 'swig',
+311 silly mapToRegistry   scope: null,
+311 silly mapToRegistry   escapedName: 'swig',
+311 silly mapToRegistry   name: 'swig',
+311 silly mapToRegistry   rawSpec: '',
+311 silly mapToRegistry   spec: 'latest',
+311 silly mapToRegistry   type: 'tag' }
+312 silly mapToRegistry uri https://registry.npmjs.org/swig
+313 silly fetchNamedPackageData through2
+314 silly mapToRegistry name through2
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry data Result {
+317 silly mapToRegistry   raw: 'through2',
+317 silly mapToRegistry   scope: null,
+317 silly mapToRegistry   escapedName: 'through2',
+317 silly mapToRegistry   name: 'through2',
+317 silly mapToRegistry   rawSpec: '',
+317 silly mapToRegistry   spec: 'latest',
+317 silly mapToRegistry   type: 'tag' }
+318 silly mapToRegistry uri https://registry.npmjs.org/through2
+319 silly fetchNamedPackageData vinyl-paths
+320 silly mapToRegistry name vinyl-paths
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry data Result {
+323 silly mapToRegistry   raw: 'vinyl-paths',
+323 silly mapToRegistry   scope: null,
+323 silly mapToRegistry   escapedName: 'vinyl-paths',
+323 silly mapToRegistry   name: 'vinyl-paths',
+323 silly mapToRegistry   rawSpec: '',
+323 silly mapToRegistry   spec: 'latest',
+323 silly mapToRegistry   type: 'tag' }
+324 silly mapToRegistry uri https://registry.npmjs.org/vinyl-paths
+325 verbose request uri https://registry.npmjs.org/acorn
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 6:57:49 PM
+328 verbose request id e44f66e9294c0492
+329 http request GET https://registry.npmjs.org/acorn
+330 verbose request uri https://registry.npmjs.org/browser-sync
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 6:57:50 PM
+333 http request GET https://registry.npmjs.org/browser-sync
+334 verbose request uri https://registry.npmjs.org/chai
+335 verbose request no auth needed
+336 info attempt registry request try #1 at 6:57:50 PM
+337 http request GET https://registry.npmjs.org/chai
+338 verbose request uri https://registry.npmjs.org/chai-jquery
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 6:57:50 PM
+341 http request GET https://registry.npmjs.org/chai-jquery
+342 verbose request uri https://registry.npmjs.org/babel-core
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 6:57:50 PM
+345 http request GET https://registry.npmjs.org/babel-core
+346 verbose request uri https://registry.npmjs.org/del
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 6:57:50 PM
+349 http request GET https://registry.npmjs.org/del
+350 verbose request uri https://registry.npmjs.org/drool
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 6:57:50 PM
+353 http request GET https://registry.npmjs.org/drool
+354 verbose request uri https://registry.npmjs.org/escodegen
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 6:57:50 PM
+357 http request GET https://registry.npmjs.org/escodegen
+358 verbose request uri https://registry.npmjs.org/google-closure-compiler
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 6:57:50 PM
+361 http request GET https://registry.npmjs.org/google-closure-compiler
+362 verbose request uri https://registry.npmjs.org/gulp
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 6:57:50 PM
+365 http request GET https://registry.npmjs.org/gulp
+366 verbose request uri https://registry.npmjs.org/gulp-autoprefixer
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 6:57:50 PM
+369 http request GET https://registry.npmjs.org/gulp-autoprefixer
+370 verbose request uri https://registry.npmjs.org/gulp-cache
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 6:57:50 PM
+373 http request GET https://registry.npmjs.org/gulp-cache
+374 verbose request uri https://registry.npmjs.org/gulp-closure-compiler
+375 verbose request no auth needed
+376 info attempt registry request try #1 at 6:57:50 PM
+377 http request GET https://registry.npmjs.org/gulp-closure-compiler
+378 verbose request uri https://registry.npmjs.org/gulp-concat
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 6:57:50 PM
+381 http request GET https://registry.npmjs.org/gulp-concat
+382 verbose request uri https://registry.npmjs.org/gulp-connect
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 6:57:50 PM
+385 http request GET https://registry.npmjs.org/gulp-connect
+386 verbose request uri https://registry.npmjs.org/gulp-css-inline-images
+387 verbose request no auth needed
+388 info attempt registry request try #1 at 6:57:50 PM
+389 http request GET https://registry.npmjs.org/gulp-css-inline-images
+390 verbose request uri https://registry.npmjs.org/gulp-csso
+391 verbose request no auth needed
+392 info attempt registry request try #1 at 6:57:50 PM
+393 http request GET https://registry.npmjs.org/gulp-csso
+394 verbose request uri https://registry.npmjs.org/gulp-file
+395 verbose request no auth needed
+396 info attempt registry request try #1 at 6:57:50 PM
+397 http request GET https://registry.npmjs.org/gulp-file
+398 verbose request uri https://registry.npmjs.org/gulp-flatten
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 6:57:50 PM
+401 http request GET https://registry.npmjs.org/gulp-flatten
+402 verbose request uri https://registry.npmjs.org/gulp-front-matter
+403 verbose request no auth needed
+404 info attempt registry request try #1 at 6:57:50 PM
+405 http request GET https://registry.npmjs.org/gulp-front-matter
+406 verbose request uri https://registry.npmjs.org/gulp-header
+407 verbose request no auth needed
+408 info attempt registry request try #1 at 6:57:50 PM
+409 http request GET https://registry.npmjs.org/gulp-header
+410 verbose request uri https://registry.npmjs.org/gulp-if
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 6:57:50 PM
+413 http request GET https://registry.npmjs.org/gulp-if
+414 verbose request uri https://registry.npmjs.org/gulp-iife
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 6:57:50 PM
+417 http request GET https://registry.npmjs.org/gulp-iife
+418 verbose request uri https://registry.npmjs.org/gulp-imagemin
+419 verbose request no auth needed
+420 info attempt registry request try #1 at 6:57:50 PM
+421 http request GET https://registry.npmjs.org/gulp-imagemin
+422 verbose request uri https://registry.npmjs.org/gulp-jscs
+423 verbose request no auth needed
+424 info attempt registry request try #1 at 6:57:50 PM
+425 http request GET https://registry.npmjs.org/gulp-jscs
+426 verbose request uri https://registry.npmjs.org/gulp-jshint
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 6:57:50 PM
+429 http request GET https://registry.npmjs.org/gulp-jshint
+430 verbose request uri https://registry.npmjs.org/gulp-load-plugins
+431 verbose request no auth needed
+432 info attempt registry request try #1 at 6:57:50 PM
+433 http request GET https://registry.npmjs.org/gulp-load-plugins
+434 verbose request uri https://registry.npmjs.org/gulp-marked
+435 verbose request no auth needed
+436 info attempt registry request try #1 at 6:57:50 PM
+437 http request GET https://registry.npmjs.org/gulp-marked
+438 verbose request uri https://registry.npmjs.org/gulp-mocha-phantomjs
+439 verbose request no auth needed
+440 info attempt registry request try #1 at 6:57:50 PM
+441 http request GET https://registry.npmjs.org/gulp-mocha-phantomjs
+442 verbose request uri https://registry.npmjs.org/gulp-open
+443 verbose request no auth needed
+444 info attempt registry request try #1 at 6:57:50 PM
+445 http request GET https://registry.npmjs.org/gulp-open
+446 verbose request uri https://registry.npmjs.org/gulp-rename
+447 verbose request no auth needed
+448 info attempt registry request try #1 at 6:57:50 PM
+449 http request GET https://registry.npmjs.org/gulp-rename
+450 verbose request uri https://registry.npmjs.org/gulp-replace
+451 verbose request no auth needed
+452 info attempt registry request try #1 at 6:57:50 PM
+453 http request GET https://registry.npmjs.org/gulp-replace
+454 verbose request uri https://registry.npmjs.org/gulp-sass
+455 verbose request no auth needed
+456 info attempt registry request try #1 at 6:57:50 PM
+457 http request GET https://registry.npmjs.org/gulp-sass
+458 verbose request uri https://registry.npmjs.org/gulp-shell
+459 verbose request no auth needed
+460 info attempt registry request try #1 at 6:57:50 PM
+461 http request GET https://registry.npmjs.org/gulp-shell
+462 verbose request uri https://registry.npmjs.org/gulp-size
+463 verbose request no auth needed
+464 info attempt registry request try #1 at 6:57:50 PM
+465 http request GET https://registry.npmjs.org/gulp-size
+466 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 6:57:50 PM
+469 http request GET https://registry.npmjs.org/gulp-sourcemaps
+470 verbose request uri https://registry.npmjs.org/gulp-subtree
+471 verbose request no auth needed
+472 info attempt registry request try #1 at 6:57:50 PM
+473 http request GET https://registry.npmjs.org/gulp-subtree
+474 verbose request uri https://registry.npmjs.org/gulp-tap
+475 verbose request no auth needed
+476 info attempt registry request try #1 at 6:57:50 PM
+477 http request GET https://registry.npmjs.org/gulp-tap
+478 verbose request uri https://registry.npmjs.org/gulp-uglify
+479 verbose request no auth needed
+480 info attempt registry request try #1 at 6:57:50 PM
+481 http request GET https://registry.npmjs.org/gulp-uglify
+482 verbose request uri https://registry.npmjs.org/gulp-util
+483 verbose request no auth needed
+484 info attempt registry request try #1 at 6:57:50 PM
+485 http request GET https://registry.npmjs.org/gulp-util
+486 verbose request uri https://registry.npmjs.org/gulp-zip
+487 verbose request no auth needed
+488 info attempt registry request try #1 at 6:57:50 PM
+489 http request GET https://registry.npmjs.org/gulp-zip
+490 verbose request uri https://registry.npmjs.org/humanize
+491 verbose request no auth needed
+492 info attempt registry request try #1 at 6:57:50 PM
+493 http request GET https://registry.npmjs.org/humanize
+494 verbose request uri https://registry.npmjs.org/jquery
+495 verbose request no auth needed
+496 info attempt registry request try #1 at 6:57:50 PM
+497 http request GET https://registry.npmjs.org/jquery
+498 verbose request uri https://registry.npmjs.org/jshint-stylish
+499 verbose request no auth needed
+500 info attempt registry request try #1 at 6:57:50 PM
+501 http request GET https://registry.npmjs.org/jshint-stylish
+502 verbose request uri https://registry.npmjs.org/merge-stream
+503 verbose request no auth needed
+504 info attempt registry request try #1 at 6:57:50 PM
+505 http request GET https://registry.npmjs.org/merge-stream
+506 verbose request uri https://registry.npmjs.org/mocha
+507 verbose request no auth needed
+508 info attempt registry request try #1 at 6:57:50 PM
+509 http request GET https://registry.npmjs.org/mocha
+510 verbose request uri https://registry.npmjs.org/prismjs
+511 verbose request no auth needed
+512 info attempt registry request try #1 at 6:57:50 PM
+513 http request GET https://registry.npmjs.org/prismjs
+514 verbose request uri https://registry.npmjs.org/run-sequence
+515 verbose request no auth needed
+516 info attempt registry request try #1 at 6:57:50 PM
+517 http request GET https://registry.npmjs.org/run-sequence
+518 verbose request uri https://registry.npmjs.org/swig
+519 verbose request no auth needed
+520 info attempt registry request try #1 at 6:57:50 PM
+521 http request GET https://registry.npmjs.org/swig
+522 verbose request uri https://registry.npmjs.org/vinyl-paths
+523 verbose request no auth needed
+524 info attempt registry request try #1 at 6:57:50 PM
+525 http request GET https://registry.npmjs.org/vinyl-paths
+526 verbose request uri https://registry.npmjs.org/through2
+527 verbose request no auth needed
+528 info attempt registry request try #1 at 6:57:50 PM
+529 verbose etag W/"5885e7d4-a89f"
+530 verbose lastModified Mon, 23 Jan 2017 11:24:04 GMT
+531 http request GET https://registry.npmjs.org/through2
+532 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+533 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+534 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+535 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+536 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+537 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+538 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+539 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+540 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+541 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+542 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+543 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+544 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+545 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+546 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+547 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+548 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+549 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+550 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+551 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+552 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+553 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+554 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+555 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+556 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+557 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+558 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+559 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+560 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+561 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+562 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+563 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+564 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+565 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+566 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+567 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+568 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+569 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+570 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+571 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+572 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+573 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+574 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+575 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+576 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+577 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+578 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+579 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+580 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+581 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+582 info attempt registry request try #2 at 6:58:21 PM
+583 http request GET https://registry.npmjs.org/browser-sync
+584 info attempt registry request try #2 at 6:58:21 PM
+585 http request GET https://registry.npmjs.org/gulp-css-inline-images
+586 info attempt registry request try #2 at 6:58:21 PM
+587 http request GET https://registry.npmjs.org/babel-core
+588 info attempt registry request try #2 at 6:58:21 PM
+589 http request GET https://registry.npmjs.org/gulp
+590 info attempt registry request try #2 at 6:58:21 PM
+591 http request GET https://registry.npmjs.org/del
+592 info attempt registry request try #2 at 6:58:21 PM
+593 http request GET https://registry.npmjs.org/gulp-autoprefixer
+594 info attempt registry request try #2 at 6:58:21 PM
+595 http request GET https://registry.npmjs.org/chai-jquery
+596 info attempt registry request try #2 at 6:58:21 PM
+597 http request GET https://registry.npmjs.org/gulp-concat
+598 info attempt registry request try #2 at 6:58:21 PM
+599 http request GET https://registry.npmjs.org/gulp-flatten
+600 info attempt registry request try #2 at 6:58:21 PM
+601 http request GET https://registry.npmjs.org/gulp-mocha-phantomjs
+602 info attempt registry request try #2 at 6:58:21 PM
+603 http request GET https://registry.npmjs.org/gulp-if
+604 info attempt registry request try #2 at 6:58:21 PM
+605 http request GET https://registry.npmjs.org/gulp-imagemin
+606 info attempt registry request try #2 at 6:58:21 PM
+607 http request GET https://registry.npmjs.org/gulp-open
+608 info attempt registry request try #2 at 6:58:21 PM
+609 http request GET https://registry.npmjs.org/gulp-csso
+610 info attempt registry request try #2 at 6:58:21 PM
+611 http request GET https://registry.npmjs.org/gulp-marked
+612 info attempt registry request try #2 at 6:58:21 PM
+613 http request GET https://registry.npmjs.org/gulp-iife
+614 info attempt registry request try #2 at 6:58:21 PM
+615 http request GET https://registry.npmjs.org/gulp-replace
+616 info attempt registry request try #2 at 6:58:21 PM
+617 http request GET https://registry.npmjs.org/gulp-front-matter
+618 info attempt registry request try #2 at 6:58:21 PM
+619 http request GET https://registry.npmjs.org/gulp-jscs
+620 info attempt registry request try #2 at 6:58:21 PM
+621 http request GET https://registry.npmjs.org/gulp-file
+622 info attempt registry request try #2 at 6:58:21 PM
+623 http request GET https://registry.npmjs.org/gulp-rename
+624 info attempt registry request try #2 at 6:58:21 PM
+625 http request GET https://registry.npmjs.org/gulp-header
+626 info attempt registry request try #2 at 6:58:21 PM
+627 http request GET https://registry.npmjs.org/gulp-shell
+628 info attempt registry request try #2 at 6:58:21 PM
+629 http request GET https://registry.npmjs.org/gulp-util
+630 info attempt registry request try #2 at 6:58:21 PM
+631 http request GET https://registry.npmjs.org/gulp-sourcemaps
+632 info attempt registry request try #2 at 6:58:21 PM
+633 http request GET https://registry.npmjs.org/gulp-tap
+634 info attempt registry request try #2 at 6:58:21 PM
+635 http request GET https://registry.npmjs.org/humanize
+636 info attempt registry request try #2 at 6:58:21 PM
+637 http request GET https://registry.npmjs.org/jquery
+638 info attempt registry request try #2 at 6:58:21 PM
+639 http request GET https://registry.npmjs.org/gulp-sass
+640 info attempt registry request try #2 at 6:58:21 PM
+641 http request GET https://registry.npmjs.org/google-closure-compiler
+642 info attempt registry request try #2 at 6:58:21 PM
+643 http request GET https://registry.npmjs.org/merge-stream
+644 info attempt registry request try #2 at 6:58:21 PM
+645 http request GET https://registry.npmjs.org/escodegen
+646 info attempt registry request try #2 at 6:58:21 PM
+647 http request GET https://registry.npmjs.org/swig
+648 info attempt registry request try #2 at 6:58:21 PM
+649 http request GET https://registry.npmjs.org/gulp-subtree
+650 info attempt registry request try #2 at 6:58:21 PM
+651 http request GET https://registry.npmjs.org/prismjs
+652 info attempt registry request try #2 at 6:58:21 PM
+653 http request GET https://registry.npmjs.org/acorn
+654 info attempt registry request try #2 at 6:58:21 PM
+655 http request GET https://registry.npmjs.org/gulp-closure-compiler
+656 info attempt registry request try #2 at 6:58:21 PM
+657 http request GET https://registry.npmjs.org/gulp-zip
+658 info attempt registry request try #2 at 6:58:21 PM
+659 http request GET https://registry.npmjs.org/jshint-stylish
+660 info attempt registry request try #2 at 6:58:21 PM
+661 http request GET https://registry.npmjs.org/chai
+662 info attempt registry request try #2 at 6:58:21 PM
+663 http request GET https://registry.npmjs.org/gulp-connect
+664 info attempt registry request try #2 at 6:58:21 PM
+665 http request GET https://registry.npmjs.org/gulp-uglify
+666 info attempt registry request try #2 at 6:58:21 PM
+667 http request GET https://registry.npmjs.org/drool
+668 info attempt registry request try #2 at 6:58:21 PM
+669 http request GET https://registry.npmjs.org/gulp-cache
+670 info attempt registry request try #2 at 6:58:21 PM
+671 http request GET https://registry.npmjs.org/gulp-size
+672 info attempt registry request try #2 at 6:58:21 PM
+673 http request GET https://registry.npmjs.org/run-sequence
+674 info attempt registry request try #2 at 6:58:21 PM
+675 http request GET https://registry.npmjs.org/mocha
+676 info attempt registry request try #2 at 6:58:21 PM
+677 http request GET https://registry.npmjs.org/vinyl-paths
+678 info attempt registry request try #2 at 6:58:21 PM
+679 http request GET https://registry.npmjs.org/gulp-jshint
+680 info attempt registry request try #2 at 6:58:21 PM
+681 http request GET https://registry.npmjs.org/gulp-load-plugins
+682 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+683 info attempt registry request try #2 at 6:58:42 PM
+684 verbose etag W/"5885e7d4-a89f"
+685 verbose lastModified Mon, 23 Jan 2017 11:24:04 GMT
+686 http request GET https://registry.npmjs.org/through2
+687 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+688 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+689 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+690 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+691 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+692 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+693 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+694 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+695 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+696 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+697 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+698 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+699 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+700 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+701 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+702 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+703 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+704 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+705 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+706 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+707 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+708 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+709 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+710 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+711 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+712 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+713 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+714 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+715 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+716 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+717 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+718 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+719 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+720 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+721 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+722 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+723 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+724 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+725 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+726 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+727 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+728 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+729 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+730 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+731 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+732 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+733 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+734 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+735 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+736 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+737 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.8.162:443
+738 info attempt registry request try #3 at 6:59:42 PM
+739 http request GET https://registry.npmjs.org/gulp-css-inline-images
+740 info attempt registry request try #3 at 6:59:42 PM
+741 http request GET https://registry.npmjs.org/del
+742 info attempt registry request try #3 at 6:59:42 PM
+743 http request GET https://registry.npmjs.org/gulp-autoprefixer
+744 info attempt registry request try #3 at 6:59:42 PM
+745 http request GET https://registry.npmjs.org/chai-jquery
+746 info attempt registry request try #3 at 6:59:42 PM
+747 http request GET https://registry.npmjs.org/browser-sync
+748 info attempt registry request try #3 at 6:59:42 PM
+749 http request GET https://registry.npmjs.org/gulp-concat
+750 info attempt registry request try #3 at 6:59:42 PM
+751 http request GET https://registry.npmjs.org/gulp-mocha-phantomjs
+752 info attempt registry request try #3 at 6:59:42 PM
+753 http request GET https://registry.npmjs.org/gulp
+754 info attempt registry request try #3 at 6:59:42 PM
+755 http request GET https://registry.npmjs.org/babel-core
+756 info attempt registry request try #3 at 6:59:42 PM
+757 http request GET https://registry.npmjs.org/gulp-if
+758 info attempt registry request try #3 at 6:59:42 PM
+759 http request GET https://registry.npmjs.org/gulp-imagemin
+760 info attempt registry request try #3 at 6:59:42 PM
+761 http request GET https://registry.npmjs.org/gulp-flatten
+762 info attempt registry request try #3 at 6:59:42 PM
+763 http request GET https://registry.npmjs.org/gulp-iife
+764 info attempt registry request try #3 at 6:59:42 PM
+765 http request GET https://registry.npmjs.org/gulp-csso
+766 info attempt registry request try #3 at 6:59:42 PM
+767 http request GET https://registry.npmjs.org/gulp-open
+768 info attempt registry request try #3 at 6:59:42 PM
+769 http request GET https://registry.npmjs.org/gulp-front-matter
+770 info attempt registry request try #3 at 6:59:42 PM
+771 http request GET https://registry.npmjs.org/gulp-jscs
+772 info attempt registry request try #3 at 6:59:42 PM
+773 http request GET https://registry.npmjs.org/gulp-shell
+774 info attempt registry request try #3 at 6:59:42 PM
+775 http request GET https://registry.npmjs.org/gulp-replace
+776 info attempt registry request try #3 at 6:59:42 PM
+777 http request GET https://registry.npmjs.org/gulp-util
+778 info attempt registry request try #3 at 6:59:42 PM
+779 http request GET https://registry.npmjs.org/gulp-marked
+780 info attempt registry request try #3 at 6:59:42 PM
+781 http request GET https://registry.npmjs.org/gulp-rename
+782 info attempt registry request try #3 at 6:59:42 PM
+783 http request GET https://registry.npmjs.org/gulp-header
+784 info attempt registry request try #3 at 6:59:42 PM
+785 http request GET https://registry.npmjs.org/jquery
+786 info attempt registry request try #3 at 6:59:42 PM
+787 http request GET https://registry.npmjs.org/google-closure-compiler
+788 info attempt registry request try #3 at 6:59:42 PM
+789 http request GET https://registry.npmjs.org/gulp-sourcemaps
+790 info attempt registry request try #3 at 6:59:42 PM
+791 http request GET https://registry.npmjs.org/humanize
+792 info attempt registry request try #3 at 6:59:42 PM
+793 http request GET https://registry.npmjs.org/merge-stream
+794 info attempt registry request try #3 at 6:59:42 PM
+795 http request GET https://registry.npmjs.org/gulp-file
+796 info attempt registry request try #3 at 6:59:42 PM
+797 http request GET https://registry.npmjs.org/gulp-sass
+798 info attempt registry request try #3 at 6:59:42 PM
+799 http request GET https://registry.npmjs.org/gulp-tap
+800 info attempt registry request try #3 at 6:59:42 PM
+801 http request GET https://registry.npmjs.org/swig
+802 info attempt registry request try #3 at 6:59:42 PM
+803 http request GET https://registry.npmjs.org/jshint-stylish
+804 info attempt registry request try #3 at 6:59:42 PM
+805 http request GET https://registry.npmjs.org/gulp-zip
+806 info attempt registry request try #3 at 6:59:42 PM
+807 http request GET https://registry.npmjs.org/prismjs
+808 info attempt registry request try #3 at 6:59:42 PM
+809 http request GET https://registry.npmjs.org/gulp-closure-compiler
+810 info attempt registry request try #3 at 6:59:42 PM
+811 http request GET https://registry.npmjs.org/escodegen
+812 info attempt registry request try #3 at 6:59:42 PM
+813 http request GET https://registry.npmjs.org/acorn
+814 info attempt registry request try #3 at 6:59:42 PM
+815 http request GET https://registry.npmjs.org/gulp-subtree
+816 info attempt registry request try #3 at 6:59:42 PM
+817 http request GET https://registry.npmjs.org/chai
+818 info attempt registry request try #3 at 6:59:42 PM
+819 http request GET https://registry.npmjs.org/gulp-cache
+820 info attempt registry request try #3 at 6:59:42 PM
+821 http request GET https://registry.npmjs.org/vinyl-paths
+822 info attempt registry request try #3 at 6:59:42 PM
+823 http request GET https://registry.npmjs.org/gulp-connect
+824 info attempt registry request try #3 at 6:59:42 PM
+825 http request GET https://registry.npmjs.org/run-sequence
+826 info attempt registry request try #3 at 6:59:42 PM
+827 http request GET https://registry.npmjs.org/gulp-jshint
+828 info attempt registry request try #3 at 6:59:42 PM
+829 http request GET https://registry.npmjs.org/gulp-size
+830 info attempt registry request try #3 at 6:59:42 PM
+831 http request GET https://registry.npmjs.org/gulp-uglify
+832 info attempt registry request try #3 at 6:59:42 PM
+833 http request GET https://registry.npmjs.org/mocha
+834 info attempt registry request try #3 at 6:59:42 PM
+835 http request GET https://registry.npmjs.org/drool
+836 info attempt registry request try #3 at 6:59:53 PM
+837 http request GET https://registry.npmjs.org/gulp-load-plugins
+838 info attempt registry request try #3 at 7:00:03 PM
+839 verbose etag W/"5885e7d4-a89f"
+840 verbose lastModified Mon, 23 Jan 2017 11:24:04 GMT
+841 http request GET https://registry.npmjs.org/through2
+842 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+842 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+842 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+842 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+842 silly fetchPackageMetaData  error for del@^2.0.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+842 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+842 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+842 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+842 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+842 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+842 silly fetchPackageMetaData   syscall: 'connect',
+842 silly fetchPackageMetaData   address: '151.101.8.162',
+842 silly fetchPackageMetaData   port: 443 }
+843 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+843 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+843 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+843 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+843 silly fetchPackageMetaData  error for gulp-css-inline-images@^0.1.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+843 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+843 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+843 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+843 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+843 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+843 silly fetchPackageMetaData   syscall: 'connect',
+843 silly fetchPackageMetaData   address: '151.101.8.162',
+843 silly fetchPackageMetaData   port: 443 }
+844 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+844 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+844 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+844 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+844 silly fetchPackageMetaData  error for gulp-mocha-phantomjs@^0.10.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+844 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+844 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+844 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+844 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+844 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+844 silly fetchPackageMetaData   syscall: 'connect',
+844 silly fetchPackageMetaData   address: '151.101.8.162',
+844 silly fetchPackageMetaData   port: 443 }
+845 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+845 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+845 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+845 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+845 silly fetchPackageMetaData  error for browser-sync@^2.2.3 { Error: connect ETIMEDOUT 151.101.8.162:443
+845 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+845 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+845 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+845 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+845 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+845 silly fetchPackageMetaData   syscall: 'connect',
+845 silly fetchPackageMetaData   address: '151.101.8.162',
+845 silly fetchPackageMetaData   port: 443 }
+846 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+846 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+846 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+846 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+846 silly fetchPackageMetaData  error for gulp-concat@^2.4.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+846 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+846 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+846 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+846 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+846 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+846 silly fetchPackageMetaData   syscall: 'connect',
+846 silly fetchPackageMetaData   address: '151.101.8.162',
+846 silly fetchPackageMetaData   port: 443 }
+847 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+847 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+847 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+847 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+847 silly fetchPackageMetaData  error for gulp-autoprefixer@^3.0.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+847 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+847 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+847 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+847 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+847 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+847 silly fetchPackageMetaData   syscall: 'connect',
+847 silly fetchPackageMetaData   address: '151.101.8.162',
+847 silly fetchPackageMetaData   port: 443 }
+848 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+848 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+848 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+848 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+848 silly fetchPackageMetaData  error for gulp@^3.9.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+848 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+848 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+848 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+848 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+848 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+848 silly fetchPackageMetaData   syscall: 'connect',
+848 silly fetchPackageMetaData   address: '151.101.8.162',
+848 silly fetchPackageMetaData   port: 443 }
+849 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+849 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+849 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+849 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+849 silly fetchPackageMetaData  error for gulp-if@^2.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+849 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+849 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+849 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+849 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+849 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+849 silly fetchPackageMetaData   syscall: 'connect',
+849 silly fetchPackageMetaData   address: '151.101.8.162',
+849 silly fetchPackageMetaData   port: 443 }
+850 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+850 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+850 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+850 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+850 silly fetchPackageMetaData  error for chai-jquery@^2.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+850 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+850 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+850 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+850 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+850 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+850 silly fetchPackageMetaData   syscall: 'connect',
+850 silly fetchPackageMetaData   address: '151.101.8.162',
+850 silly fetchPackageMetaData   port: 443 }
+851 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+851 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+851 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+851 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+851 silly fetchPackageMetaData  error for gulp-imagemin@^2.2.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+851 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+851 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+851 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+851 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+851 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+851 silly fetchPackageMetaData   syscall: 'connect',
+851 silly fetchPackageMetaData   address: '151.101.8.162',
+851 silly fetchPackageMetaData   port: 443 }
+852 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+852 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+852 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+852 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+852 silly fetchPackageMetaData  error for gulp-csso@1.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+852 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+852 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+852 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+852 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+852 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+852 silly fetchPackageMetaData   syscall: 'connect',
+852 silly fetchPackageMetaData   address: '151.101.8.162',
+852 silly fetchPackageMetaData   port: 443 }
+853 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+853 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+853 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+853 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+853 silly fetchPackageMetaData  error for gulp-iife@^0.1.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+853 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+853 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+853 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+853 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+853 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+853 silly fetchPackageMetaData   syscall: 'connect',
+853 silly fetchPackageMetaData   address: '151.101.8.162',
+853 silly fetchPackageMetaData   port: 443 }
+854 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+854 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+854 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+854 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+854 silly fetchPackageMetaData  error for babel-core@^5.8.25 { Error: connect ETIMEDOUT 151.101.8.162:443
+854 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+854 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+854 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+854 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+854 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+854 silly fetchPackageMetaData   syscall: 'connect',
+854 silly fetchPackageMetaData   address: '151.101.8.162',
+854 silly fetchPackageMetaData   port: 443 }
+855 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+855 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+855 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+855 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+855 silly fetchPackageMetaData  error for gulp-flatten@^0.3.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+855 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+855 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+855 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+855 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+855 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+855 silly fetchPackageMetaData   syscall: 'connect',
+855 silly fetchPackageMetaData   address: '151.101.8.162',
+855 silly fetchPackageMetaData   port: 443 }
+856 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+856 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+856 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+856 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+856 silly fetchPackageMetaData  error for gulp-shell@^0.4.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+856 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+856 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+856 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+856 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+856 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+856 silly fetchPackageMetaData   syscall: 'connect',
+856 silly fetchPackageMetaData   address: '151.101.8.162',
+856 silly fetchPackageMetaData   port: 443 }
+857 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+857 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+857 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+857 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+857 silly fetchPackageMetaData  error for gulp-open@^1.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+857 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+857 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+857 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+857 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+857 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+857 silly fetchPackageMetaData   syscall: 'connect',
+857 silly fetchPackageMetaData   address: '151.101.8.162',
+857 silly fetchPackageMetaData   port: 443 }
+858 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+858 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+858 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+858 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+858 silly fetchPackageMetaData  error for gulp-front-matter@^1.2.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+858 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+858 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+858 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+858 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+858 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+858 silly fetchPackageMetaData   syscall: 'connect',
+858 silly fetchPackageMetaData   address: '151.101.8.162',
+858 silly fetchPackageMetaData   port: 443 }
+859 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+859 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+859 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+859 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+859 silly fetchPackageMetaData  error for gulp-jscs@^3.0.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+859 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+859 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+859 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+859 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+859 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+859 silly fetchPackageMetaData   syscall: 'connect',
+859 silly fetchPackageMetaData   address: '151.101.8.162',
+859 silly fetchPackageMetaData   port: 443 }
+860 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+860 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+860 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+860 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+860 silly fetchPackageMetaData  error for gulp-replace@^0.5.3 { Error: connect ETIMEDOUT 151.101.8.162:443
+860 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+860 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+860 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+860 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+860 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+860 silly fetchPackageMetaData   syscall: 'connect',
+860 silly fetchPackageMetaData   address: '151.101.8.162',
+860 silly fetchPackageMetaData   port: 443 }
+861 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+861 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+861 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+861 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+861 silly fetchPackageMetaData  error for jquery@^2.1.3 { Error: connect ETIMEDOUT 151.101.8.162:443
+861 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+861 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+861 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+861 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+861 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+861 silly fetchPackageMetaData   syscall: 'connect',
+861 silly fetchPackageMetaData   address: '151.101.8.162',
+861 silly fetchPackageMetaData   port: 443 }
+862 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+862 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+862 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+862 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+862 silly fetchPackageMetaData  error for gulp-file@^0.2.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+862 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+862 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+862 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+862 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+862 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+862 silly fetchPackageMetaData   syscall: 'connect',
+862 silly fetchPackageMetaData   address: '151.101.8.162',
+862 silly fetchPackageMetaData   port: 443 }
+863 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+863 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+863 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+863 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+863 silly fetchPackageMetaData  error for gulp-sourcemaps@^1.3.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+863 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+863 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+863 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+863 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+863 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+863 silly fetchPackageMetaData   syscall: 'connect',
+863 silly fetchPackageMetaData   address: '151.101.8.162',
+863 silly fetchPackageMetaData   port: 443 }
+864 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+864 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+864 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+864 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+864 silly fetchPackageMetaData  error for humanize@0.0.9 { Error: connect ETIMEDOUT 151.101.8.162:443
+864 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+864 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+864 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+864 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+864 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+864 silly fetchPackageMetaData   syscall: 'connect',
+864 silly fetchPackageMetaData   address: '151.101.8.162',
+864 silly fetchPackageMetaData   port: 443 }
+865 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+865 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+865 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+865 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+865 silly fetchPackageMetaData  error for gulp-header@^1.2.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+865 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+865 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+865 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+865 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+865 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+865 silly fetchPackageMetaData   syscall: 'connect',
+865 silly fetchPackageMetaData   address: '151.101.8.162',
+865 silly fetchPackageMetaData   port: 443 }
+866 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+866 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+866 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+866 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+866 silly fetchPackageMetaData  error for jshint-stylish@^2.0.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+866 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+866 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+866 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+866 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+866 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+866 silly fetchPackageMetaData   syscall: 'connect',
+866 silly fetchPackageMetaData   address: '151.101.8.162',
+866 silly fetchPackageMetaData   port: 443 }
+867 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+867 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+867 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+867 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+867 silly fetchPackageMetaData  error for prismjs@0.0.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+867 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+867 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+867 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+867 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+867 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+867 silly fetchPackageMetaData   syscall: 'connect',
+867 silly fetchPackageMetaData   address: '151.101.8.162',
+867 silly fetchPackageMetaData   port: 443 }
+868 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+868 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+868 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+868 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+868 silly fetchPackageMetaData  error for gulp-subtree@^0.1.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+868 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+868 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+868 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+868 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+868 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+868 silly fetchPackageMetaData   syscall: 'connect',
+868 silly fetchPackageMetaData   address: '151.101.8.162',
+868 silly fetchPackageMetaData   port: 443 }
+869 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+869 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+869 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+869 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+869 silly fetchPackageMetaData  error for swig@^1.4.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+869 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+869 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+869 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+869 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+869 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+869 silly fetchPackageMetaData   syscall: 'connect',
+869 silly fetchPackageMetaData   address: '151.101.8.162',
+869 silly fetchPackageMetaData   port: 443 }
+870 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+870 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+870 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+870 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+870 silly fetchPackageMetaData  error for acorn@^3.3.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+870 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+870 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+870 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+870 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+870 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+870 silly fetchPackageMetaData   syscall: 'connect',
+870 silly fetchPackageMetaData   address: '151.101.8.162',
+870 silly fetchPackageMetaData   port: 443 }
+871 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+871 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+871 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+871 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+871 silly fetchPackageMetaData  error for gulp-closure-compiler@^0.3.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+871 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+871 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+871 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+871 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+871 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+871 silly fetchPackageMetaData   syscall: 'connect',
+871 silly fetchPackageMetaData   address: '151.101.8.162',
+871 silly fetchPackageMetaData   port: 443 }
+872 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+872 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+872 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+872 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+872 silly fetchPackageMetaData  error for chai@^3.3.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+872 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+872 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+872 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+872 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+872 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+872 silly fetchPackageMetaData   syscall: 'connect',
+872 silly fetchPackageMetaData   address: '151.101.8.162',
+872 silly fetchPackageMetaData   port: 443 }
+873 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+873 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+873 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+873 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+873 silly fetchPackageMetaData  error for vinyl-paths@^2.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+873 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+873 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+873 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+873 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+873 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+873 silly fetchPackageMetaData   syscall: 'connect',
+873 silly fetchPackageMetaData   address: '151.101.8.162',
+873 silly fetchPackageMetaData   port: 443 }
+874 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+874 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+874 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+874 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+874 silly fetchPackageMetaData  error for escodegen@^1.6.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+874 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+874 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+874 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+874 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+874 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+874 silly fetchPackageMetaData   syscall: 'connect',
+874 silly fetchPackageMetaData   address: '151.101.8.162',
+874 silly fetchPackageMetaData   port: 443 }
+875 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+875 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+875 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+875 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+875 silly fetchPackageMetaData  error for gulp-cache@^0.3.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+875 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+875 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+875 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+875 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+875 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+875 silly fetchPackageMetaData   syscall: 'connect',
+875 silly fetchPackageMetaData   address: '151.101.8.162',
+875 silly fetchPackageMetaData   port: 443 }
+876 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+876 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+876 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+876 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+876 silly fetchPackageMetaData  error for gulp-size@^2.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+876 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+876 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+876 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+876 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+876 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+876 silly fetchPackageMetaData   syscall: 'connect',
+876 silly fetchPackageMetaData   address: '151.101.8.162',
+876 silly fetchPackageMetaData   port: 443 }
+877 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+877 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+877 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+877 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+877 silly fetchPackageMetaData  error for google-closure-compiler@ { Error: connect ETIMEDOUT 151.101.8.162:443
+877 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+877 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+877 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+877 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+877 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+877 silly fetchPackageMetaData   syscall: 'connect',
+877 silly fetchPackageMetaData   address: '151.101.8.162',
+877 silly fetchPackageMetaData   port: 443 }
+878 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+878 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+878 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+878 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+878 silly fetchPackageMetaData  error for merge-stream@^1.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+878 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+878 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+878 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+878 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+878 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+878 silly fetchPackageMetaData   syscall: 'connect',
+878 silly fetchPackageMetaData   address: '151.101.8.162',
+878 silly fetchPackageMetaData   port: 443 }
+879 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+879 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+879 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+879 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+879 silly fetchPackageMetaData  error for mocha@^3.0.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+879 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+879 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+879 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+879 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+879 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+879 silly fetchPackageMetaData   syscall: 'connect',
+879 silly fetchPackageMetaData   address: '151.101.8.162',
+879 silly fetchPackageMetaData   port: 443 }
+880 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+880 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+880 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+880 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+880 silly fetchPackageMetaData  error for gulp-uglify@^2.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+880 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+880 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+880 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+880 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+880 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+880 silly fetchPackageMetaData   syscall: 'connect',
+880 silly fetchPackageMetaData   address: '151.101.8.162',
+880 silly fetchPackageMetaData   port: 443 }
+881 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+881 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+881 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+881 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+881 silly fetchPackageMetaData  error for run-sequence@^1.0.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+881 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+881 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+881 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+881 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+881 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+881 silly fetchPackageMetaData   syscall: 'connect',
+881 silly fetchPackageMetaData   address: '151.101.8.162',
+881 silly fetchPackageMetaData   port: 443 }
+882 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+882 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+882 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+882 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+882 silly fetchPackageMetaData  error for gulp-marked@^1.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+882 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+882 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+882 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+882 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+882 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+882 silly fetchPackageMetaData   syscall: 'connect',
+882 silly fetchPackageMetaData   address: '151.101.8.162',
+882 silly fetchPackageMetaData   port: 443 }
+883 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+883 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+883 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+883 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+883 silly fetchPackageMetaData  error for gulp-tap@^0.1.3 { Error: connect ETIMEDOUT 151.101.8.162:443
+883 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+883 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+883 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+883 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+883 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+883 silly fetchPackageMetaData   syscall: 'connect',
+883 silly fetchPackageMetaData   address: '151.101.8.162',
+883 silly fetchPackageMetaData   port: 443 }
+884 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+884 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+884 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+884 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+884 silly fetchPackageMetaData  error for gulp-connect@^5.0.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+884 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+884 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+884 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+884 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+884 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+884 silly fetchPackageMetaData   syscall: 'connect',
+884 silly fetchPackageMetaData   address: '151.101.8.162',
+884 silly fetchPackageMetaData   port: 443 }
+885 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+885 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+885 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+885 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+885 silly fetchPackageMetaData  error for gulp-util@^3.0.4 { Error: connect ETIMEDOUT 151.101.8.162:443
+885 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+885 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+885 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+885 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+885 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+885 silly fetchPackageMetaData   syscall: 'connect',
+885 silly fetchPackageMetaData   address: '151.101.8.162',
+885 silly fetchPackageMetaData   port: 443 }
+886 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+886 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+886 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+886 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+886 silly fetchPackageMetaData  error for gulp-zip@^3.0.2 { Error: connect ETIMEDOUT 151.101.8.162:443
+886 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+886 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+886 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+886 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+886 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+886 silly fetchPackageMetaData   syscall: 'connect',
+886 silly fetchPackageMetaData   address: '151.101.8.162',
+886 silly fetchPackageMetaData   port: 443 }
+887 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+887 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+887 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+887 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+887 silly fetchPackageMetaData  error for gulp-jshint@^1.6.3 { Error: connect ETIMEDOUT 151.101.8.162:443
+887 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+887 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+887 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+887 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+887 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+887 silly fetchPackageMetaData   syscall: 'connect',
+887 silly fetchPackageMetaData   address: '151.101.8.162',
+887 silly fetchPackageMetaData   port: 443 }
+888 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+888 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+888 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+888 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+888 silly fetchPackageMetaData  error for gulp-rename@^1.2.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+888 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+888 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+888 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+888 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+888 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+888 silly fetchPackageMetaData   syscall: 'connect',
+888 silly fetchPackageMetaData   address: '151.101.8.162',
+888 silly fetchPackageMetaData   port: 443 }
+889 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+889 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+889 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+889 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+889 silly fetchPackageMetaData  error for gulp-sass@2.0.* { Error: connect ETIMEDOUT 151.101.8.162:443
+889 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+889 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+889 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+889 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+889 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+889 silly fetchPackageMetaData   syscall: 'connect',
+889 silly fetchPackageMetaData   address: '151.101.8.162',
+889 silly fetchPackageMetaData   port: 443 }
+890 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+890 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+890 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+890 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+890 silly fetchPackageMetaData  error for drool@^0.3.1 { Error: connect ETIMEDOUT 151.101.8.162:443
+890 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+890 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+890 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+890 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+890 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+890 silly fetchPackageMetaData   syscall: 'connect',
+890 silly fetchPackageMetaData   address: '151.101.8.162',
+890 silly fetchPackageMetaData   port: 443 }
+891 silly get cb [ 304, undefined ]
+892 verbose etag https://registry.npmjs.org/through2 from cache
+893 verbose get saving through2 to C:\Users\Pranav Gupta\AppData\Roaming\npm-cache\registry.npmjs.org\through2\.cache.json
+894 verbose correctMkdir C:\Users\Pranav Gupta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+895 silly resolveWithNewModule through2@2.0.3 checking installable status
+896 silly cache add args [ 'through2@^2.0.0', null ]
+897 verbose cache add spec through2@^2.0.0
+898 silly cache add parsed spec Result {
+898 silly cache add   raw: 'through2@^2.0.0',
+898 silly cache add   scope: null,
+898 silly cache add   escapedName: 'through2',
+898 silly cache add   name: 'through2',
+898 silly cache add   rawSpec: '^2.0.0',
+898 silly cache add   spec: '>=2.0.0 <3.0.0',
+898 silly cache add   type: 'range' }
+899 silly addNamed through2@>=2.0.0 <3.0.0
+900 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for through2
+901 silly addNameRange { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: false }
+902 silly mapToRegistry name through2
+903 silly mapToRegistry using default registry
+904 silly mapToRegistry registry https://registry.npmjs.org/
+905 silly mapToRegistry data Result {
+905 silly mapToRegistry   raw: 'through2',
+905 silly mapToRegistry   scope: null,
+905 silly mapToRegistry   escapedName: 'through2',
+905 silly mapToRegistry   name: 'through2',
+905 silly mapToRegistry   rawSpec: '',
+905 silly mapToRegistry   spec: 'latest',
+905 silly mapToRegistry   type: 'tag' }
+906 silly mapToRegistry uri https://registry.npmjs.org/through2
+907 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+908 verbose get https://registry.npmjs.org/through2 not expired, no request
+909 silly addNameRange number 2 { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: true }
+910 silly addNameRange versions [ 'through2',
+910 silly addNameRange   [ '0.0.0',
+910 silly addNameRange     '0.0.1',
+910 silly addNameRange     '0.0.2',
+910 silly addNameRange     '0.0.3',
+910 silly addNameRange     '0.0.4',
+910 silly addNameRange     '0.0.5',
+910 silly addNameRange     '0.1.0',
+910 silly addNameRange     '0.2.0',
+910 silly addNameRange     '0.2.1',
+910 silly addNameRange     '0.2.2',
+910 silly addNameRange     '0.2.3',
+910 silly addNameRange     '0.3.0',
+910 silly addNameRange     '0.4.0',
+910 silly addNameRange     '0.4.1',
+910 silly addNameRange     '1.0.0',
+910 silly addNameRange     '0.4.2',
+910 silly addNameRange     '0.5.0',
+910 silly addNameRange     '0.5.1',
+910 silly addNameRange     '0.6.0',
+910 silly addNameRange     '1.1.0',
+910 silly addNameRange     '0.6.1',
+910 silly addNameRange     '1.1.1',
+910 silly addNameRange     '0.6.2',
+910 silly addNameRange     '0.6.3',
+910 silly addNameRange     '0.6.4',
+910 silly addNameRange     '0.6.5',
+910 silly addNameRange     '2.0.0',
+910 silly addNameRange     '2.0.1',
+910 silly addNameRange     '2.0.2',
+910 silly addNameRange     '2.0.3' ] ]
+911 silly addNamed through2@2.0.3
+912 verbose addNamed "2.0.3" is a plain semver version for through2
+913 silly cache afterAdd through2@2.0.3
+914 verbose afterAdd C:\Users\Pranav Gupta\AppData\Roaming\npm-cache\through2\2.0.3\package\package.json not in flight; writing
+915 verbose correctMkdir C:\Users\Pranav Gupta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+916 verbose afterAdd C:\Users\Pranav Gupta\AppData\Roaming\npm-cache\through2\2.0.3\package\package.json written
+917 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.8.162:443
+917 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+917 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+917 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+917 silly fetchPackageMetaData  error for gulp-load-plugins@^0.10.0 { Error: connect ETIMEDOUT 151.101.8.162:443
+917 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+917 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+917 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+917 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+917 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+917 silly fetchPackageMetaData   syscall: 'connect',
+917 silly fetchPackageMetaData   address: '151.101.8.162',
+917 silly fetchPackageMetaData   port: 443 }
+918 silly rollbackFailedOptional Starting
+919 silly rollbackFailedOptional Finishing
+920 silly runTopLevelLifecycles Finishing
+921 silly install printInstalled
+922 verbose stack Error: connect ETIMEDOUT 151.101.8.162:443
+922 verbose stack     at Object.exports._errnoException (util.js:1022:11)
+922 verbose stack     at exports._exceptionWithHostPort (util.js:1045:20)
+922 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+923 verbose cwd E:\pranavgupta1234.github.io\mdl
+924 error Windows_NT 10.0.10586
+925 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+926 error node v6.9.2
+927 error npm  v3.10.9
+928 error code ETIMEDOUT
+929 error errno ETIMEDOUT
+930 error syscall connect
+931 error network connect ETIMEDOUT 151.101.8.162:443
+932 error network This is most likely not a problem with npm itself
+932 error network and is related to network connectivity.
+932 error network In most cases you are behind a proxy or have bad network settings.
+932 error network
+932 error network If you are behind a proxy, please make sure that the
+932 error network 'proxy' config is set properly.  See: 'npm help config'
+933 verbose exit [ 1, true ]
