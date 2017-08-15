@@ -21,8 +21,13 @@
     <link rel="stylesheet" href="css/ospb.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
     <link rel="icon" href="img/favicon.png">
     <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
 </head>
 <body data-repo="darsain/motio" data-metafile="meta.json">
 
@@ -35,15 +40,14 @@
 
 <header class="projecttitle">
     <div class="titlewrap">
-        <div class="type-js headline">
-            <h1 class="text-js projectname">PRANAV GUPTA</h1>
-
-        </div>
-        <a href="https://www.github.com/pranavgupta1234" class="follow"><i class="fa fa-github icon-large"></i>
-            Follow for updates
-        </a>
+        <h1 style="font-family: Roboto font-size: 3em"> I'm
+        <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Android Developer.", "Web devel oper.", "Game Developer.", "just a developer","Pranav" ]'></span>
+        </h1>
     </div>
-    <p class="projectdescription"> ANDROID DEVELOPER | WEB DEVELOPER | GAME DEVELOPER </p>
+    <h2><p class="projectdescription"> ANDROID DEVELOPER | WEB DEVELOPER | GAME DEVELOPER </p></h2>
 </header>
 
 <div class="download pagespan" id="download" data-point="download" data-title="DOWNLOAD" data-active-when="down">
@@ -123,7 +127,6 @@
         <img class="gifplayer android_gif" src="img/android2.gif"/>
         <img class="rx_png" src="img/rx.png">
         <img class="comp_png" src="img/compressor.png">
-        <img class="contact_png" src="img/contact.png">
     </nav>
 
     <section data-point="introduction" data-title="INTRODUCTION">
@@ -444,38 +447,65 @@ $example.on(&#039;mousemove&#039;, function (event) {
                     class="fa fa-book icon-large"></i> Debounce Search Emitter</a></li>
         </ul>
     </section>
-
-    <section data-point="Contact Me" data-title="Contact Me">
-
-        <div class="card">
-            <div class="heading">
-                <h2 style="color: white;">CONTACT ME</h2>
-            </div>
-
-
-        </div>
-
-        <div class="container">
-            <p>
-                <i class="fa fa-envelope">  </i> &nbsp;&nbsp;pranavgupta4321@gmail.com<br>
-                <i class="fa fa-envelope">  </i> &nbsp;&nbsp;pranav_gupta@students.iitmandi.ac.in<br>
-                <i class="fa fa-bitbucket fa-th-large">  </i>&nbsp;&nbsp;&nbsp;<a href="https://bitbucket.org/pranav_gupta_oo7/">Bitbucket</a><br>
-                <i class="fa fa-github large">  </i>&nbsp;&nbsp;&nbsp;<a href="https://github.com/pranavgupta1234">GitHub</a><br>
-                <i class="fa fa-user-circle large">  </i>&nbsp;&nbsp;<a href="http://pranavgupta1234.github.io">My Website</a><br>
-                <i class="fa fa-address-book large">  </i>&nbsp;&nbsp;8629015392<br>
-            </p>
-        </div>
-
-        <p style="margin-top: 24px">
-            Find me @ <i class="fa fa-linkedin"></i><br>
-            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/pranav-gupta-285072109"
-                    data-format="inline" data-related="false"></script>
-        </p>
-    </section>
 </div>
 
-<footer class="pagespan" data-point="license" data-title="License">
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Pranav<span>Gupta</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Learn</a>
+            ·
+            <a href="#">Develop</a>
+            ·
+            <a href="#">Learn</a>
+        </p>
+
+        <p class="footer-company-name">PGStudios &copy; 2017</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span><a href="https://www.iitmandi.ac.in">Indian Institute of Technology</a></span> Mandi, India</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>91 862901392 </p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">pranavgupta4321@gmail.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>Reach me</span>
+                I am easily available through the following means, if you want to hire me just ping me through any of these
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/profile.php?id=100010196311757"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/p_r_a_n_a_v_007"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/pranav-gupta-285072109/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/pranavgupta1234"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!--<footer class="pagespan" data-point="license" data-title="License">
     <a id="license" class="license">
         <i class="icon-refresh icon-spin"></i> Loading license <i class="icon-refresh icon-spin"></i>
     </a>
@@ -484,7 +514,7 @@ $example.on(&#039;mousemove&#039;, function (event) {
         <i class="icon-refresh icon-large icon-spin"></i>
         <h6>Loading other projects</h6>
     </div>
-</footer>
+</footer>-->
 
 <!-- Templates -->
 <script type="text/tim" class="version">
@@ -530,7 +560,6 @@ $example.on(&#039;mousemove&#039;, function (event) {
 <script src="js/motio.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/autotype.js"></script>
-
 <!-- Google Analytics -->
 <script>
     var _gaq = [['_setAccount', 'UA-838758-7'], ['_trackPageview']];
