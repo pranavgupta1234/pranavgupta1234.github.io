@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb74e613-6e3d-43c2-ae56-87460c27e844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/hp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/portfolio/placeitnow.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio/cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio/circus.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/drone.png" afterPath="$PROJECT_DIR$/img/portfolio/drone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/meter.png" afterPath="$PROJECT_DIR$/img/portfolio/meter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/mobile.png" afterPath="$PROJECT_DIR$/img/portfolio/mobile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/rx.png" afterPath="$PROJECT_DIR$/img/portfolio/rx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/web.png" afterPath="$PROJECT_DIR$/img/portfolio/web.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old website/mdl/npm-debug.log" afterPath="$PROJECT_DIR$/old website/mdl/npm-debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,9 +29,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="92" column="68" lean-forward="false" selection-start-line="92" selection-start-column="68" selection-end-line="92" selection-end-column="68" />
+            <state relative-caret-position="799">
+              <caret line="624" column="80" lean-forward="true" selection-start-line="624" selection-start-column="80" selection-end-line="624" selection-end-column="80" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old website/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="226" column="138" lean-forward="false" selection-start-line="220" selection-start-column="20" selection-end-line="226" selection-end-column="138" />
+              <folding>
+                <marker date="1503477033304" expanded="true" signature="1380:1734" ph="..." />
+                <marker date="1503477033304" expanded="true" signature="1553:1653" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +153,11 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pranav Gupta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pranavgupta1234.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="old website" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503478478471</updated>
       <workItem from="1503478479965" duration="11228000" />
-      <workItem from="1503501228533" duration="2156000" />
+      <workItem from="1503501228533" duration="3020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13384000" />
+    <option name="totallyTimeSpent" value="14248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,10 +339,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/old website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="226" column="138" lean-forward="false" selection-start-line="220" selection-start-column="20" selection-end-line="226" selection-end-column="138" />
+          <folding>
+            <marker date="1503477033304" expanded="true" signature="1380:1734" ph="..." />
+            <marker date="1503477033304" expanded="true" signature="1553:1653" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="92" column="68" lean-forward="false" selection-start-line="92" selection-start-column="68" selection-end-line="92" selection-end-column="68" />
+        <state relative-caret-position="799">
+          <caret line="624" column="80" lean-forward="true" selection-start-line="624" selection-start-column="80" selection-end-line="624" selection-end-column="80" />
           <folding />
         </state>
       </provider>
